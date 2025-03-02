@@ -1,0 +1,204 @@
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Настравиаем SEO-->
+    <meta name="author"      content="dvlopr111"> 
+    <meta name="description" content=" Описание вашего приложения">
+    <meta name="robots"      content="index , follow">
+    <meta name="keywords"    content=""  >
+    <title>Timophey | Software Developer</title>
+    <link rel="stylesheet" href="./style/global.css">
+    <script src="./src/script.js" defer></script>
+    <script src="./bot/bot.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="">О нас   </a>
+                <a href="">Кейсы   </a>
+                <a href="">Контакты</a>
+            </nav>
+        </header>
+
+    <main>
+         
+        <section class="main-view">
+          <h2> Timophey </h2>
+          
+          <div class="design-container">
+               <div class="design-item"></div>
+               <div style="animation-delay: 4s;" class="design-item"></div>
+          </div>
+
+          <button id="slide_down">
+            <img src="./image/arrow_down.png" alt="">
+          </button>
+          
+        </section>
+
+        <section class="main-bio">
+            <div class="main-bio-img">
+                <img src="./image/my face.png" alt="">
+                <p class="bio-title">Front-end Developer</p>
+                <p class="bio-github"> <a href="">GitHub</a> </p>
+                <a href=""> <button class="bio-cv-download">Скачать резюме</button> </a>
+            </div>
+            <div class="main-bio-info">
+                <span id="element"></span>
+                <p>
+                    Привет! Меня зовут Тимофей
+                    и я frontend разработчик из Ставропольского края. 
+                    Работаю с JavaScript уже на протяжении
+                    полутора года. Также пользуюсь библиотеками
+                    и умею создавать кроссбраузерные приложения. 
+                    Владею рефакторингом кода.
+                    Вы сможете узнать больше обо мне ниже...
+                </p>
+            </div>
+        </section>
+
+        <section class="main-case">
+            <h2>Мой стэк</h2>
+
+            <div class="case-cards">
+                <div class="case-card" id="card-1">
+                    <img src="./image/html-card.png" alt="">
+                    HTML5
+                </div>
+                <div class="case-card" id="card-2">
+                    <img src="./image/js-card.png" alt="">
+                    JavaScript
+                </div>
+                <div class="case-card" id="card-3">
+                    <img src="./image/css-card.png" alt="">
+                    CSS3
+                </div>
+                <div class="case-card" id="card-4">
+                    <img src="./image/react-card.png" alt="">
+                    React JS
+                </div>
+                <div class="case-card" id="card-5">
+                    <img src="./image/css-card.png" alt="">
+                    CSS3
+                </div>
+            </div>
+
+            <h2>Мои знания</h2>
+
+            <div id="chart">
+            </div>
+        </section>
+
+        <div class="bot_form">
+            <input id="user_name" type="text" placeholder="Введите ваше имя">
+            <input id="user_mail" type="text" placeholder="Введите вашу почту">
+            <input id="user_msg" type="text" placeholder="Введите ваше сообщение">
+            <button id="send_btn">Отправить</button>
+        </div>
+
+        <aside id="bot">
+            <img width="150px" src="./image/bot.png" alt="">
+        </aside>
+
+        <section class="sect-works">
+            <h2>Мои работы</h2>
+
+            <div class="works_container">
+                <div class="feedbacks">
+                    <div style="height: 300px;" class="feedback">
+                        <div style="background: purple;" class="feedback_mark">Отзыв</div>
+                        <div class="feedback_person">
+                            <img src="./image/user.png" alt="">
+                            <span>Болотников Вадим</span>
+                             <div class="feedback_body">
+                                Отличный специалист! Быстрое выполнение заказов и постоянная
+                                обратная связь. Работаю с ним не в первый раз. Рекомендую.
+                             </div>
+                        </div>
+                    </div>
+                    <div style="height: 200px;" class="feedback">
+                        <div style="background: orange;" class="feedback_mark">Отзыв</div>
+                        <div class="feedback_person">
+                            <img src="./image/user.png" alt="">
+                            <span>Ефремов Алек</span>
+                             <div class="feedback_body">
+                                Отличный JS разработчик. Показал отличное знание
+                                HTML и CSS. Заказ выполнил быстро и как надо.
+                             </div>
+                        </div>
+                    </div>
+                    <div class="feedback">
+                        <div style="background: red;" class="feedback_mark">Отзыв</div>
+                        <div class="feedback_person">
+                            <img src="./image/user.png" alt="">
+                            <span>Третьяк Михаил</span>
+                             <div class="feedback_body">
+                                Работа с Тимофеем была очень продуктивной.
+                                Он показал высокий уровень профессионализма и глубокое понимание языка,
+                                на котором работает, что сделало работу с ним еще приятнее.
+                             </div>
+                        </div>
+                    </div>
+                    <div style="height: 350px;" class="feedback">
+                        <div style="background: green;" class="feedback_mark">Отзыв</div>
+                        <div class="feedback_person">
+                            <img src="./image/user.png" alt="">
+                            <span>Платон Захаров</span>
+                             <div class="feedback_body">
+                                Тимофей — отличный специалист.
+                                Он быстро и качественно решает задачи,
+                                а его коммуникативные навыки делают работу вместе очень эффективной.
+                                Я рекомендую его для ваших проектов!
+                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="works">
+                    <div class="slider">
+                        <button id="slider-left">
+                            <img src="./image/slider/arrow.png" alt="">
+                        </button>
+                        <div class="slider_content">
+                            <img src="./image/slider/battery.png" id="obj-img" alt="">
+
+                            <div id="obj-name">Battery status app</div>
+                            
+                            <a href="https://github.com/FocUUsMe/battery" id="obj-repLink">Ссылка на репозиторий</a>
+
+                            <a href="https://focuusme.github.io/battery/" id="obj-appLink">Ссылка на приложение</a>
+                        </div>
+                        <button id="slider-right">
+                            <img src="./image/slider/arrow.png" alt="">
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="info">
+                <p id="info_mail">timthedeveloper111@gmail.com</p>
+                <p id="info_numb">+7 988 701-61-00</p>
+            </div>
+            <div class="mediascreen">
+                <a href="https://t.me/sleepingman11" target="_blank">
+                    <img src="./image/telegram.png" alt="">
+                </a>
+                <a href="https://wa.me/79887016100" target="_blank">
+                    <img src="./image/whatsapp.png" alt="">
+                </a>
+                <a href="https://github.com/FocUUsMe" target="_blank">
+                    <img src="./image/github.png" alt="">
+                </a>
+            </div>
+            <p id="foot_rights">Stolyarov Timophey &copy; 2025 All rights reserved</p>
+        </section>
+
+    </main>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</body> 
