@@ -9,6 +9,10 @@
         --secondary-font:'Orbitron'
     }
 
+    html, body{
+        scroll-behavior: smooth;
+    }
+
     #chart{
         width: 500px;
         height: 500px;
@@ -36,7 +40,6 @@
     .container{
     width: 1224px;
     max-width: 100%;
- 
     margin: 0 auto;  
     }
     body{
@@ -73,7 +76,6 @@
 
     .main-bio{
         min-height: 100vh;
-    
         color: white;
         display: flex;
         justify-content: space-around;
@@ -265,6 +267,15 @@
 
     .case-cards:hover #card-5{
         transform: translate(-280px, 80px) rotate(-40deg);
+    }
+
+    #card-3{
+        animation: cardClick 2s infinite linear;
+    }
+
+    #card-3 img{
+        width: 150px;
+        height: 150px;
     }
 
     #card-4{
@@ -607,6 +618,16 @@
         }
     }
 
+    @keyframes cardClick{
+        0%{
+            filter: brightness(1);
+        }50%{
+            filter: brightness(1.3);
+        }100%{
+            filter: brightness(1);
+        }
+    }
+
 
 
     @media screen and (max-width: 820px){
@@ -704,6 +725,12 @@
     
         .case-cards:hover #card-5{
             transform: translate(-150px, 50px) rotate(-40deg);
+        }
+
+        #card-3 img{
+            width: 70px;
+            height: 70px;
+
         }
 
         #bot{
