@@ -90,7 +90,7 @@
                 font-size: 28px;
                 color: blue;
                 font-family: "Inter";
-                width: 200%;
+                width: 50%;
             }
     }
 
@@ -665,6 +665,7 @@
                 & #element{
                     font-size: 28px;
                     margin-left: 100px;
+                    width: 200%;
                 }
         }
 

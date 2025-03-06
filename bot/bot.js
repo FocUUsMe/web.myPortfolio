@@ -4,7 +4,7 @@ const chat_id = 6486689223;
 const API_URL = `https://api.telegram.org/bot${token}/sendMessage?chat_id=${chat_id}&text=<message>`;
 
 const userName = document.querySelector('#user_name');
-const userMail = document.querySelector('#user_main');
+const userMail = document.querySelector('#user_mail');
 const userMsg  = document.querySelector('#user_msg');
 
 function sendMessage(){
